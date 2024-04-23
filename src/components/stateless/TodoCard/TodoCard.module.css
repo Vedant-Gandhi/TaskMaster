@@ -1,0 +1,99 @@
+.card {
+    max-width: 350px;
+    width: 100%;
+    margin: 5px 5px;
+    border: 1px solid var(--light-shadow-1);
+    padding: 16px;
+    border-radius: 8px;
+    transition: all 200ms;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0.2px 0.3px 6px 1px var(--light-shadow-1);
+}
+
+.cardTitle {
+    font-size: 1rem;
+    font-family: var(--default-font-family);
+}
+
+.tagWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 3px;
+    margin-top: 8px;
+    flex-wrap: wrap;
+    min-height: 20px;
+}
+
+.dueDate {
+    font-size: 0.75rem;
+    color: var(--neutral-bg-text-color);
+    margin: 2px 0;
+
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.actionIcon {
+    font-size: 1.2rem;
+    padding: 4px 4px;
+    border-radius: 100%;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+
+.deleteIcon {
+    color: #ff3737;
+    border: 0.2px solid #ff3737;
+}
+
+.deleteIcon:hover {
+    color: #ffffff;
+    background-color: #ff3737;
+}
+
+.actionIconContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.okIcon {
+    font-weight: bolder;
+    color: #43f468;
+    border: 0.2px solid #43f468;
+}
+
+.okIcon:hover {
+    color: #ffffff;
+    background-color: #43f468;
+}
+
+.alarmClock {
+    font-size: 0.9rem;
+    color: var(--primary-color);
+}
+
+.status {
+    font-size: 0.8rem;
+    margin-right: auto;
+
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    text-transform: capitalize;
+}
+
+.statusDenoter {
+    background-color: #a09d9d;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+}

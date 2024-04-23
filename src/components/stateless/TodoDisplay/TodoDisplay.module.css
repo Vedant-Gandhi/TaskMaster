@@ -1,0 +1,7 @@
+.rootContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    margin-top: 12px;
+}

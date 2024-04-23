@@ -1,0 +1,12 @@
+.textfield {
+    width: 100%;
+    height: fit-content;
+    font-size: 1rem;
+    outline: none;
+    background-color: inherit;
+    border: 1.5px solid var(--neutral-background-dark-2);
+    max-width: 612px;
+    border-radius: 5px;
+    padding: 6px 12px;
+    min-height: 100px;
+}

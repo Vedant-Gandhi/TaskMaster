@@ -1,0 +1,8 @@
+.rootContainer {
+    display: grid;
+    grid-template-columns: 16vw 84vw;
+    height: 100vh;
+    max-width: 100vw;
+    overflow: hidden;
+    word-wrap: break-word;
+}

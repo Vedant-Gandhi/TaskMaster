@@ -1,0 +1,39 @@
+.baseButton {
+    width: fit-content;
+    height: fit-content;
+    padding: 8px 32px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    outline: none;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 6px;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.primary {
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
+
+.primary:hover {
+    background-color: var(--primary-color-light-1);
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+    color: #ffffff;
+}
+
+.primary:hover {
+    background-color: var(--primary-color-light-1);
+}
+
+.delete {
+    background-color: #ff3737;
+    border: 1px solid #ff3737;
+    color: #fff;
+}

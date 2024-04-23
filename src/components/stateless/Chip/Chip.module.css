@@ -1,0 +1,19 @@
+.Chip {
+    padding: 3px 12px;
+    border-radius: 12px;
+    width: fit-content;
+    margin: 0 2px;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+    transition: all 200ms;
+    background-color: var(--neutral-background-light-1);
+}
+
+.Chip p {
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--neutral-bg-text-color);
+}

@@ -1,0 +1,14 @@
+.rootContainer {
+    padding: 12px 12px;
+}
+
+.rootContainer h1 {
+    font-size: 1.7rem;
+    margin: 18px 0 24px 0;
+}
+
+.rootContainer h2 {
+    font-size: 1rem;
+    margin: 12px 0;
+    color: var(--primary-color);
+}
