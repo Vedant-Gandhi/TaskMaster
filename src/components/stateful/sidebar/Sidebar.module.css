@@ -60,7 +60,7 @@
     }
 
     .menuIcon {
-        display: block;
+        display: flex;
     }
 
     .closeMenuIcon {
