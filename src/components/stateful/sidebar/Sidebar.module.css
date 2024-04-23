@@ -36,3 +36,34 @@
 .addNewButton:hover {
     background-color: var(--primary-color-light-1);
 }
+
+.menuIcon {
+    cursor: pointer;
+    display: none;
+}
+
+.closeMenuIcon {
+    font-size: 2rem;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .root {
+        transform: translate(-100%, 0);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .menuIcon {
+        display: block;
+    }
+
+    .closeMenuIcon {
+        display: block;
+    }
+}
